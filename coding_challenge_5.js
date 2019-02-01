@@ -52,7 +52,7 @@ var john = {
       this.finalAmount.push(this.tips[i] + this.bills[i]);
     }
   }
-}
+};
 
 john.calcTips();
 
@@ -74,7 +74,7 @@ var mark = {
       this.finalAmount.push(this.tips[i] + this.bills[i]);
     }
   }
-}
+};
 
 mark.calcTips();
 
@@ -125,7 +125,7 @@ var john = {
       this.finalValues[i] = bill + bill * percentage;
     }
   }
-}
+};
 
 var mark = {
   fullName: 'Mark Miller',
@@ -152,7 +152,7 @@ var mark = {
       this.finalValues[i] = bill + bill * percentage;
     }
   }
-}
+};
 
 function calcAverage(tips) {
   var sum = 0;
